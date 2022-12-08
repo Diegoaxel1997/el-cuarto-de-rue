@@ -1,0 +1,38 @@
+.photo {
+    width: 100%;
+    height: 50em;
+    background-image: url(../assets/img/original.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    img{
+        width: 100%;
+        height: 800px;
+    }
+    p{
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        margin-top: 2em;
+        &:nth-child(1){
+            font-size: 75px;
+            font-family: 'Gelasio', serif;
+        }
+        &:nth-child(2){
+            font-size: 22px;
+            margin-top: 1em;
+            font-family: 'Gelasio', serif;
+        }
+    }
+    .texto {
+        position: relative;
+    }
+}
+.grad { 
+    width: 100%;
+    height: 50em;
+    background-image:linear-gradient(90deg, rgb(31, 31, 31),rgb(0, 0, 0),rgb(31, 31, 31));
+    position: absolute;
+    opacity: 0.6;
+}

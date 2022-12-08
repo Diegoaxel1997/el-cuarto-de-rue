@@ -1,0 +1,18 @@
+.footer {
+    background-color: rgb(15, 11, 4);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+    height: 8em;
+    .rrss {
+        color: rgb(255, 255, 255);
+        padding:1em;
+        &:hover {
+            color: rgb(54, 48, 27);
+        }
+        svg {
+            width: 5em;
+            padding: 0;
+        }
+    }
+}
