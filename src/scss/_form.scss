@@ -16,6 +16,7 @@
             font-size: 25px;
         }
         p a {
+            text-decoration: none;
             font-style: italic;
             color: rgb(255, 255, 255);
             font-weight: 600;
@@ -48,7 +49,7 @@
                     font-size: 21px;
                 }
                 textarea {
-                    border-bottom: 2px solid rgb(32, 26, 10);
+                    border-bottom: 2px solid rgb(27, 27, 27);
                     max-height: 100px;
                     max-width: 100%;
                     min-height: 100px;
@@ -56,7 +57,7 @@
                 }
                 .sumbit {
                     margin-top: 10px;
-                    background-color: rgb(32, 26, 10);
+                    background-color: rgb(31, 31, 31);
                     color: white;
                     cursor: pointer;
                     font-size: 20px;

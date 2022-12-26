@@ -8,38 +8,34 @@ header {
         height: 5em;
         background-color:  rgba(44, 42, 40, 0.89);   
         background-color: rgb(15, 11, 4);        
-        ul {
+        background-color: rgba(19, 19, 19, 0.192);
+        ul{
             display: flex;
             flex-direction: row;
             justify-content: end;
             align-items: center;
             li {
-                list-style: none;
-                transition: 1s; 
+                list-style: none;; 
+                transition: all 0.2s;
+                &:hover{
+                    padding-bottom: 12px;
+                }
                 a {
+                    display: block;
                     color: rgb(235, 232, 232);
                     font-size: 20px; 
-                    padding:0 50px;
-                    border-left: 1px solid rgb(255, 255, 255);
+                    margin: 0 50px;
                     text-decoration: none;
                     font-family: 'Times New Roman', Times, serif;
-                    &:hover{
-                        color: rgb(190, 190, 190);
-                    }                    
+                    transition: all 0.2s;                  
                 }
                 svg {
-                    margin: 0 18px;
-                    border-left: 1px solid rgb(255, 255, 255);
-                    padding-left: 20px;
+                    margin: 0 30px;
                     color: rgb(255, 255, 255);
                     cursor: pointer;
-                    width: 40px;
-                    &:hover {
-                        color: rgb(190, 190, 190);
-                    }
                 }
             }
-        }
+        }        
         .fa-solid {
             color: white;
             font-size: 30px;
@@ -47,14 +43,15 @@ header {
             display: none;
         }
         .logo {
-            font-size: 40px;
+            font-size:clamp(25px,5vw,40px);
             color: rgb(255, 255, 255);    
-            margin-left: 50px;
+            margin-left: 1em;
             text-decoration: none;
             font-family: 'Times New Roman', Times, serif;
+            transition: all 0.2s;
             &:hover {
-                color: rgb(190, 190, 190);
+                padding-bottom: 12px;
             }
         }
     }
-} 
+}

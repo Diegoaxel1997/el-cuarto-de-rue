@@ -1,37 +1,38 @@
 .informacion {
-    .p-icons {
+    .p-icons, .info {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-size: 20px;
+        font-size: clamp(15px,2vw,20px);
         color: rgb(245, 245, 245);
-    }
-    .nube {
         text-align: center;
-        margin: 15px auto;
-        width: 47%;
-        padding: 0 2em 0.5em 2em;
-        border-radius: 20px;
-        color: rgb(0, 0, 0);
-        background-color: rgba(255, 255, 255, 0.897);
-        box-shadow: 0 0 3px 0 rgb(0, 0, 0);
-        h2 {
-            font-size: 30px;
-            padding-top: 9px;
-            color: rgb(0, 0, 0);
-        }
-        p, b {
-            font-size: 20px;
-            line-height: 25px;
-        }
-        
     }
-    .info {
-        text-align: center;
-        font-size: 20px ;
-        display: block;
-        margin: 0 auto;
-        padding: 7px;
-        color: rgb(255, 255, 255);
+}
+.box-faqs {
+    width: 50em;
+    margin: 20px auto;
+    padding-bottom: 15px;
+    box-shadow: 0 0 3px rgb(207, 207, 207);
+    border-radius: 10px;
+    color: rgb(236, 236, 236);
+    overflow: hidden;
+    h3{
+        font-size: 30px;
+        background-color: rgba(78, 78, 78, 0.144);
+        margin: 20px 30px 0 30px ;
+        padding: 10px 20px;
+        border-radius: 5px;
+
     }
+    p, b {
+        font-size:clamp(15px,2vw,20px);
+        margin: 10px 40px;
+        text-align: left;
+    }
+}
+@media(max-width:809px){
+    .box-faqs {
+        width: 100%;
+    }
+
 }

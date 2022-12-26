@@ -9,7 +9,7 @@
         box-shadow: 0 2px 3px  rgba(136, 136, 136, 0.2);
         font-family: sans-serif;
         padding-bottom: 20px;
-        margin: 2em 1.5em;
+        margin: 2em 3em;
         color: rgb(255, 255, 255);
         transition: all 0.25s;
         &:hover {
@@ -20,6 +20,7 @@
             width: 100%;
             border-radius: 5px;
             height: 18em; 
+            background-color: rgb(255, 255, 255);
         }
         p {
             padding: 10px 20px;
